@@ -16,4 +16,4 @@ victime = victime.merge(accident,on='Num_Acc')
 print(victime)
 
 # Sauvegarder le fichier fusionné
-victime.to_csv("step1/merged_data.csv/victime.csv", index=False)
+victime.to_csv("step1/merged_data.csv/victime.csv", index=False) 
